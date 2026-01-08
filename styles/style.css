@@ -20,6 +20,10 @@ body {
     background-color: #469165;
     color: white;
     font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 7px;
 }
 
 .banner-button{
@@ -36,6 +40,11 @@ body {
     font-weight: 600;
     color: white;
 
+}
+
+.btn-4 {
+    
+    margin:  0 auto 16px;
 }
 
 .container{
@@ -229,4 +238,40 @@ p.solution{
     list-style: url(../assets/CheckCircle.png);
     list-style-position: inside;
     margin-bottom: 16px;
+}
+
+/* early-access-section */
+
+#early-access-section{
+    margin-bottom: 120px;
+}
+
+.early-access-container{
+    background-color: #F7F6F2;
+    text-align: center;
+    padding: 80px 40px;
+    border-radius: 12px;
+}
+
+.early-access-container h2{
+    font-size: 40px;
+    color: #001931;
+    margin-bottom: 16px;
+
+}
+.early-access-container p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.early-access-container .credit-card{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    color: #627382;
+}
+
+.credit-card .without-style{
+    list-style: none;
 }
