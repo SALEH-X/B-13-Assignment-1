@@ -185,3 +185,48 @@ p.banner-text{
     font-size: 16px;
     color: #627382;
 }
+
+/* brain-section */
+
+#brain-section{
+    margin-bottom: 120px;
+}
+
+.brain-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+} 
+
+.knowledge-img img{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+
+p.solution{
+    color: #469165;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.description h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 30px;
+
+}
+
+.description .subtitle{
+    color: #627382;
+    margin-bottom: 50px;
+
+}
+
+.description ul li{
+    list-style: url(../assets/CheckCircle.png);
+    list-style-position: inside;
+    margin-bottom: 16px;
+}
