@@ -1,3 +1,57 @@
-*{
-    background-color: aqua;
+/* common style */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+
+/* all-button-styles */
+
+.btn-1{
+    padding: 12px 16px;
+    border: none;
+    border-radius:4px;
+    background-color: #469165;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+
+/* main style */
+
+
+#top-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+}
+
+.nav-logo img {
+    width: 139px;
+    height: 60px;
+
+}
+
+.nav-content {
+    display: flex;
+    gap: 32px;
+
+}
+
+.nav-content ul {
+    list-style: none;
+}
+
+.nav-content ul a {
+    text-decoration: none;
+    color: black;
 }
