@@ -99,6 +99,7 @@ body {
 
 /* main style */
 
+/* nav-section-styles */
 
 #nav-section {
     display: flex;
@@ -130,7 +131,7 @@ body {
     color: black;
 }
 
-/* header section */
+/* banner-section-styles */
 
 #banner-section {
     background: url(../assets/hero-bg.png);
@@ -154,7 +155,7 @@ body {
 
 }
 
-.early-access-contant {
+.early-access-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,7 +254,7 @@ p.banner-text {
     color: #627382;
 }
 
-/* brain-section */
+/* brain-section-styles */
 
 #brain-section {
     margin-bottom: 120px;
@@ -298,7 +299,7 @@ p.solution {
     margin-bottom: 16px;
 }
 
-/* early-access-section */
+/* early-access-section-styles */
 
 #early-access-section {
     margin-bottom: 120px;
@@ -335,7 +336,7 @@ p.solution {
     list-style: none;
 }
 
-/* footer-section */
+/* footer-section-styles */
 
 #footer-section {
     background-color: #001931;
